@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="elasticsearch-rest" />
+        <module name="elasticsearch-trace" />
+        <module name="elasticsearch-javaapi" />
+        <module name="elasticsearch-jest" />
+        <module name="demo01-web" />
+        <module name="demo02-web" />
+      </profile>
+    </annotationProcessing>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="demo01-web" options="-parameters" />
+      <module name="demo02-web" options="-parameters" />
+      <module name="elasticsearch-rest" options="-parameters" />
+      <module name="elasticsearch-trace" options="" />
+    </option>
+  </component>
+</project>
